@@ -16,8 +16,10 @@ import androidx.navigation3.runtime.rememberNavBackStack
 import androidx.navigation3.ui.NavDisplay
 import com.example.parcialfinal.ui.navigation.Screens
 import com.example.parcialfinal.ui.screens.PantallaMenu
+import com.example.parcialfinal.ui.screens.PantallaOpciones
 import com.example.parcialfinal.ui.screens.PantallaPregunta
 import com.example.parcialfinal.ui.screens.PantallaResultado
+import com.example.parcialfinal.ui.screens.PantallaVotaciones
 import com.example.parcialfinal.ui.theme.ParcialFinalTheme
 
 class MainActivity : ComponentActivity() {
@@ -37,8 +39,14 @@ class MainActivity : ComponentActivity() {
                         entry<Screens.Pregunta> {
                             PantallaPregunta(backStack)
                         }
+                        entry<Screens.Opciones> {
+                            PantallaOpciones(backStack)
+                        }
                         entry<Screens.Resultado> {
                             PantallaResultado(backStack)
+                        }
+                        entry<Screens.Votaciones> {
+                            PantallaVotaciones(backStack)
                         }
                     },
                 )
