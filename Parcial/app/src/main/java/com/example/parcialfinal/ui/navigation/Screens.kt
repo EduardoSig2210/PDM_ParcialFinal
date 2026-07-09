@@ -10,5 +10,7 @@ sealed class Screens : NavKey{
 
     @Serializable
     data object Pregunta : Screens()
-}
+
+    @Serializable
+    data object Resultado : Screens()
 }

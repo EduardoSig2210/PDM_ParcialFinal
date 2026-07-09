@@ -7,4 +7,8 @@
     <string name="menu_massive_vote">Voto masivo</string>
     <string name="menu_massive_vote_desc">responder todas las preguntas</string>
     <string name="badge_new">NUEVO</string>
+    <string name="resultados_title">Resultados</string>
+    <string name="desliza_actualizar">deslizá para actualizar</string>
+    <string name="tu_voto">tu voto</string>
+    <string name="nuevo_voto">Nuevo (volver a votar)</string>
 </resources>
