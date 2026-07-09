@@ -50,7 +50,7 @@ class RankeUCAa {
         val response = client.newCall(request).execute()
     }
 
-    fun getOptions(key : String) : String? {
+    fun getquestion(key : String) : String? {
         val client = OkHttpClient()
 
         val request = Request.Builder()
@@ -60,5 +60,21 @@ class RankeUCAa {
             .build()
 
         val response = client.newCall(request).execute()
+        return response.body?.string()
     }
+
+    //Opciones
+    fun getOption(key : String) : String? {
+        val client = OkHttpClient()
+
+        val request = Request.Builder()
+            .url("https://qjcxdvfzyseuvezacxsd.supabase.co/functions/v1/rankeuca/options")
+            .get()
+            .addHeader("Authorization", "Bearer YOUR_SECRET_TOKEN")
+            .build()
+
+        val response = client.newCall(request).execute()
+        return response.body?.string()
+    }
+
 }

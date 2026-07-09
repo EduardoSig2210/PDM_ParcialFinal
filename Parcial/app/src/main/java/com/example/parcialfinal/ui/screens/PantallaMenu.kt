@@ -58,12 +58,12 @@ fun PantallaMenu(
 
             StandardMenuItem(
                 text = stringResource(R.string.menu_questions),
-                onClick =
+                onClick ={}
             )
 
             StandardMenuItem(
                 text = stringResource(R.string.menu_options),
-                onClick =
+                onClick ={}
             )
 
             Spacer(modifier = Modifier.height(8.dp))
@@ -72,7 +72,7 @@ fun PantallaMenu(
                 title = stringResource(R.string.menu_massive_vote),
                 subtitle = stringResource(R.string.menu_massive_vote_desc),
                 badgeText = stringResource(R.string.badge_new),
-                onClick =
+                onClick ={}
             )
         }
     }

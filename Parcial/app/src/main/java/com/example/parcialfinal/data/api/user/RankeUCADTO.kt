@@ -7,6 +7,6 @@ import kotlinx.serialization.Serializable
 data class RankeUCADTO(
     val id : String,
     val question : String,
-    val options : List<Option>
+    val options : List<String>
 )
 

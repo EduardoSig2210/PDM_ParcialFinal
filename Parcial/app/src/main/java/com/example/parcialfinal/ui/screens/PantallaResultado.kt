@@ -100,7 +100,7 @@ fun PantallaResultado(
             }
 
             Button(
-                onClick = ,
+                onClick ={} ,
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(vertical = 24.dp),
