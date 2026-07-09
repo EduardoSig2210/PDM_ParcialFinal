@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ParcialFinal</string>
+    <string name="app_title">RankeUCA</string>
+    <string name="menu_header">Menú principal</string>
+    <string name="menu_questions">Preguntas</string>
+    <string name="menu_options">Opciones</string>
+    <string name="menu_massive_vote">Voto masivo</string>
+    <string name="menu_massive_vote_desc">responder todas las preguntas</string>
+    <string name="badge_new">NUEVO</string>
+</resources>
