@@ -19,6 +19,7 @@ import androidx.navigation3.runtime.NavKey
 import com.example.parcialfinal.R
 
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun PantallaResultado(
     backStack: NavBackStack<NavKey>
